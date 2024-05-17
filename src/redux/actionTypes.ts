@@ -1,0 +1,2 @@
+export const STORE_URL = "STORE_URL";
+export const UPDATE_SUBTITLES = "UPDATE_SUBTITLES";
