@@ -32,7 +32,7 @@ const VideoPlayer = ({
     "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
   return (
     <Suspense fallback={<Loader />}>
-      <div className="relative player-wrapper rounded-lg shadow-lg shadow-neutral-700">
+      <div className="relative player-wrapper rounded-lg shadow-xl shadow-neutral-600 bg-red-300">
         <ReactPlayer
           className="react-player"
           url={url || default_url}

@@ -39,7 +39,7 @@ function LandingPage({ updateSubtitles, subtitles }: ILandingPage) {
   }
 
   return (
-    <div className="h-screen flex flex-col justify-center overflow-auto">
+    <div className="h-screen flex flex-col justify-center">
       <div className="flex flex-col md:flex-row flex-1">
         <div className="md:w-2/3 w-full h-full flex flex-col">
           <div className="my-10 px-5">
